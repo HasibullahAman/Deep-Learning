@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad4022e-d7aa-4eb0-acb9-3abf1a5b308b" name="Changes" comment="init">
+    <list default="true" id="8ad4022e-d7aa-4eb0-acb9-3abf1a5b308b" name="Changes" comment="make some update to knn file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classfication-knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/classfication-knn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689818629753</updated>
       <workItem from="1689818632159" duration="1134000" />
-      <workItem from="1689819985798" duration="501000" />
+      <workItem from="1689819985798" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -95,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689820402020</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make some update to knn file">
+      <option name="closed" value="true" />
+      <created>1689820536021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689820536021</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="make some update to knn file" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some update to knn file" />
   </component>
 </project>
