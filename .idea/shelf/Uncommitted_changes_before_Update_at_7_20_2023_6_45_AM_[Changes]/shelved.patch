@@ -1,0 +1,132 @@
+Index: .ipynb_checkpoints/classfication-knn.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.ipynb_checkpoints/classfication-knn.py b/.ipynb_checkpoints/classfication-knn.py
+new file mode 100644
+--- /dev/null	(date 1689819353914)
++++ b/.ipynb_checkpoints/classfication-knn.py	(date 1689819353914)
+@@ -0,0 +1,17 @@
++import numpy as np
++
++
++class NearstNighbor:
++    def __init__(self):
++        pass
++
++    def train(self, X,y):
++        """ X is D x N where each row is an example, Y is 1-dimonation of size N"""
++        """" the NearstNighbors simply remmeber all the traning data"""
++        self.Xtr = X
++        self.ytr = y
++
++    def Predict(self,X):
++        """"X is N x D where each row is an example we wish to predict lebel for"""
++        num_test = X.shape[0]
++
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1689818662988)
++++ b/.idea/.gitignore	(date 1689818662988)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1689818661436)
++++ b/.idea/modules.xml	(date 1689818661436)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Deep-Learning.iml" filepath="$PROJECT_DIR$/.idea/Deep-Learning.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/Deep-Learning.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Deep-Learning.iml b/.idea/Deep-Learning.iml
+new file mode 100644
+--- /dev/null	(date 1689818661405)
++++ b/.idea/Deep-Learning.iml	(date 1689818661405)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1689818661455)
++++ b/.idea/misc.xml	(date 1689818661455)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1689818661512)
++++ b/.idea/vcs.xml	(date 1689818661512)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1689818661486)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1689818661486)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
