@@ -17,11 +17,10 @@ class NearistNighbors:
         ypred = np.zeros(num_test,dtype=self.ytr.dtype)
 
 
-        for i in xrange(num_test):
+        for i in range(num_test):
             distence = np.sum(np.abs(self.Xtr - X[i,:]),axis=1)
             min_index = np.argmin(distence) # get the smallest one
             ypred[i] = self.ytr[min_index] # predict the label of nearst example
             return ypred
-
 
 
